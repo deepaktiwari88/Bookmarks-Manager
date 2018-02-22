@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bookmarks Manager</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+
+  <div class="header clearfix">
+    <h2 class="text-muted"> Bookmarks Manager </h2>
+  </div>
+
+  <div class="jumbotron">
+    <h2> Bookmark Your Favourite Sites Here!<hr> </h2>
+    <form id="myform">
+      <div class="form-group">
+        <label> Site Name </label>
+        <input type="text" class="form-control" id="sitename" placeholder="Website Name">
+      </div>
+
+      <div class="form-group">
+        <label> Site URL </label>
+        <input type="text" class="form-control" id="siteurl" placeholder="Website URL">
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+  </div>
+  <div class="well">
+    <div class="saved">
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <p>&copy; Bookmarks Manager </p>
+</footer>
+<script src="main.js"></script>
+
+</body>
+</html>
